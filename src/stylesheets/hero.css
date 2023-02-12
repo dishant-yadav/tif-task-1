@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap");
+
+/* css to have multiple background */
+body {
+  background-image: url("./../assets/design.png"), url("./../assets/pizza.png");
+  background-position: top right, top right;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 752px 839px, 735px 804px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  position: relative;
+  bottom: 100px;
+}
+
+#company-logo {
+  padding: 100px;
+}
+
+.header-cta {
+  border-radius: 21px;
+  background-color: #e23744;
+  border: 2px solid #ffffff;
+  margin-right: 52px;
+}
+
+.ctaBtn-text {
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.hero-section-text {
+  padding-left: 100px;
+  position: relative;
+  bottom: 100px;
+}
+
+.hero-section-first {
+  color: #0e2368;
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 69px;
+}
+
+#highlight-text {
+  color: #e23744;
+}
+
+.secondary-text {
+  margin-top: 26px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #444957;
+}
+
+.cta-btn {
+  background: #e23744;
+  border-radius: 34px;
+  width: 190px;
+  height: 63px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 55px;
+}
