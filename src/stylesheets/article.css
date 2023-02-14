@@ -1,0 +1,42 @@
+.wrapper-article {
+  width: 381px;
+  height: 554px;
+  background: #ffffff;
+  border: 1px solid rgba(147, 162, 211, 0.38);
+  border-radius: 20px;
+  padding: 27px;
+}
+
+#img {
+  width: 326px;
+  height: 257px;
+  border-radius: 21px;
+}
+
+.dish-title {
+  margin-top: 35px;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 21px;
+  color: #0e2368;
+}
+
+.dist-desc {
+  margin-top: 14px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 15px;
+  color: #444957;
+}
+
+.read-more-btn-dish {
+  margin-top: 30px;
+  width: 131px;
+  height: 42px;
+  border: 1px solid #424961;
+  border-radius: 21px;
+  color: #424961;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 16px;
+}

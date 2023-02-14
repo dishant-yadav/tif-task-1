@@ -9,9 +9,7 @@ function Hero({}: Props) {
     <section>
       <header className="header">
         <img id="company-logo" src={logo} alt="company logo" />
-        <button className="header-cta">
-          <p className="ctaBtn-text">Get in touch</p>
-        </button>
+        <button className="header-cta">Get in Touch</button>
       </header>
       <section className="hero-section-text">
         <h3 className="hero-section-first">

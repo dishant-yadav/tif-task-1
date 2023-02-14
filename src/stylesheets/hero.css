@@ -23,15 +23,15 @@ body {
 
 .header-cta {
   border-radius: 21px;
-  background-color: #e23744;
+  background-color: transparent;
   border: 2px solid #ffffff;
   margin-right: 52px;
-}
-
-.ctaBtn-text {
+  width: 122px;
+  height: 42px;
   font-family: "Source Sans Pro";
   font-weight: 600;
   font-size: 16px;
+  color: white;
 }
 
 .hero-section-text {
