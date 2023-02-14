@@ -18,7 +18,7 @@ function About({}: Props) {
             printer took a galley of type and scrambled it to make a type <br />{" "}
             specimen book. t has survived not only five centuries.
           </p>
-          <button className="read-more-btn">Read More</button>
+          <button className="about-read-more-btn">Read More</button>
         </div>
       </section>
     </div>

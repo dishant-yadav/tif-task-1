@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.wrapper {
+    margin-top: 186px;
+    background: linear-gradient(90.07deg,
+            rgba(30, 42, 93, 0.04) 30.91%,
+            rgba(48, 62, 130, 0.04) 64.79%,
+            rgba(60, 80, 157, 0.04) 91.94%);
+    width: 100vw;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.articles-img {
+    width: 326px;
+    height: 257px;
+    border-radius: 21px;
+}
+
+.bg-none {
+    background-color: white;
+}
+
+.container {
+    box-sizing: border-box;
+    width: 381px;
+    height: 554px;
+    background: #FFFFFF;
+    border: 1.37039px solid rgba(147, 162, 211, 0.38);
+    border-radius: 20.937px;
+    margin: auto 20px;
+    position: relative;
+}
+
+.container>* {
+    margin: auto 28px;
+
+}
+
+.container>img {
+    margin: 27px 28px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}
+
+.read-more-btn {
+    margin-top: 25px;
+    width: 132px;
+    height: 42px;
+    background: #FFFFFF;
+    border-radius: 24pt;
+    font-family: "Source Sans Pro";
+    font-weight: 600;
+    font-size: 16px;
+    color: #424961;
+    border: 1px solid #424961;
+}
+
+.article-heading {
+    margin-top: 107px;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 45px;
+    color: #0e2368;
+    padding-bottom: 40px;
+}
+
+
+.article-head {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 27px;
+    color: #0E2368;
+}
+
+.article-description {
+
+    width: 295px;
+    height: 81px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+    color: #444957;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

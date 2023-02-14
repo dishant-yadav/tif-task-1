@@ -1,11 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap");
 
 /* css to have multiple background */
-body {
+.diplayImg {
   background-image: url("./../assets/design.png"), url("./../assets/pizza.png");
   background-position: top right, top right;
   background-repeat: no-repeat, no-repeat;
   background-size: 752px 839px, 735px 804px;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+}
+
+.relative,
+.contain {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
 }
 
 .header {
@@ -23,15 +35,18 @@ body {
 
 .header-cta {
   border-radius: 21px;
-  background-color: transparent;
+  background-color: #e23744;
   border: 2px solid #ffffff;
   margin-right: 52px;
-  width: 122px;
-  height: 42px;
+  padding: 6pt 10pt;
+}
+
+.ctaBtn-text {
   font-family: "Source Sans Pro";
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
   color: white;
+
 }
 
 .hero-section-text {
@@ -63,7 +78,7 @@ body {
 
 .cta-btn {
   background: #e23744;
-  border-radius: 34px;
+  border-radius: 24pt;
   width: 190px;
   height: 63px;
   font-family: "Open Sans";
@@ -71,4 +86,32 @@ body {
   font-size: 18px;
   margin-top: 55px;
   color: white;
+  border: none;
+}
+
+@media screen and (max-width: 500px) {
+
+  .diplayImg {
+    position: relative;
+    height: 50vh;
+    background-size: 100vw 50vh, 100vw 48vh;
+  }
+
+  .header-cta {
+    min-width: max-content;
+    position: absolute;
+    bottom: 32vh;
+    right: 10px;
+    margin: 0;
+  }
+
+  #company-logo {
+    display: none;
+  }
+  .hero-section-text {
+    padding: 0;
+    /* margin-left: 5%; */
+    text-align: center;
+    margin-top: 15vh;
+  }
 }

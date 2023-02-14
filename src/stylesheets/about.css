@@ -3,12 +3,10 @@
 
 .wrapper {
   margin-top: 186px;
-  background: linear-gradient(
-    90.07deg,
-    rgba(30, 42, 93, 0.04) 30.91%,
-    rgba(48, 62, 130, 0.04) 64.79%,
-    rgba(60, 80, 157, 0.04) 91.94%
-  );
+  background: linear-gradient(90.07deg,
+      rgba(30, 42, 93, 0.04) 30.91%,
+      rgba(48, 62, 130, 0.04) 64.79%,
+      rgba(60, 80, 157, 0.04) 91.94%);
   width: 100vw;
 }
 
@@ -34,14 +32,25 @@
   color: #444957;
 }
 
-.read-more-btn {
+.about-read-more-btn {
   margin-top: 25px;
   width: 132px;
   height: 42px;
   background: #e23744;
-  border-radius: 21px;
+  border-radius: 24pt;
   font-family: "Source Sans Pro";
   font-weight: 600;
   font-size: 16px;
   color: white;
+  border: none;
+}
+
+@media screen and (max-width: 500px) {
+  #about-img {
+    display: none;
+  }
+  .textual-content {
+    text-align: center;
+  }
+
 }

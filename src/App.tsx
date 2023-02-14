@@ -2,14 +2,16 @@ import { useState } from "react";
 import "./App.css";
 import About from "./pages/About";
 import Hero from "./pages/hero";
-import LatestArticles from "./pages/latestArticles";
+import Articles from "./pages/Articles";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
     <div className="App">
       <Hero />
       <About />
-      <LatestArticles />
+      <Articles />
+      <Footer />
     </div>
   );
 }
